@@ -26,7 +26,7 @@ function move(e){
         layer.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
 }
-function deviceMove(e.){
+function deviceMove(e){
     this.querySelectorAll('.move').forEach(layer =>{
         const speed = layer.getAttribute('data-speed')
 
