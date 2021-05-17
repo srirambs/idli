@@ -15,7 +15,7 @@ closeMenu.addEventListener('click', ()=>{
 
 /*===== MOUSEMOVE HOME IMG =====*/
 document.addEventListener('mousemove', move);
-document.addEventListener('touchmove', move);
+document.addEventListener('devicemotion', move);
 function move(e){
     this.querySelectorAll('.move').forEach(layer =>{
         const speed = layer.getAttribute('data-speed')
